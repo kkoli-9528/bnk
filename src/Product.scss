@@ -1,0 +1,334 @@
+// div {
+//   background-color: red;
+// }
+.herobanner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Manrope", sans-serif;
+}
+
+.herobannerimg {
+  height: 40vh;
+}
+
+.product1 {
+  display: flex;
+  background-color: rgba(88, 89, 91, 0.1);
+  height: 100vh;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product1right {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.product1left {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.product2 {
+  display: flex;
+  background-color: rgba(88, 89, 91, 0.1);
+  height: 50vh;
+  flex-direction: row-reverse;
+}
+
+.product2right {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.product2left {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.product1rightimg {
+  height: 80%;
+}
+
+.product2rightimg {
+  height: 80%;
+}
+
+.contentwrapproductleft {
+  padding: 10%;
+}
+
+.headingproduct {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  /* "500" corresponds to the "Medium" font weight */
+  margin: 0%;
+  line-height: 1.3;
+  margin-bottom: 1%;
+  font-size: 5rem;
+}
+
+.contentproduct {
+  font-family: "Manrope", sans-serif;
+  line-height: 1.3;
+  font-size: 1.2rem;
+  color: #242323;
+}
+
+.heading2product {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  /* "500" corresponds to the "Medium" font weight */
+  margin: 0%;
+  line-height: 1.3;
+  margin-bottom: 1%;
+  font-size: 2rem;
+}
+
+.heading3product {
+  font-family: "Manrope", sans-serif;
+  margin: 0%;
+  line-height: 1.3;
+  margin-bottom: 1%;
+  font-size: 2.5rem;
+}
+
+.content2product {
+  font-family: "Manrope", sans-serif;
+  line-height: 1.3;
+  font-size: 1.2rem;
+  color: #242323;
+}
+
+.contentwrapproductleft {
+  padding: 15%;
+}
+
+//product 3
+.product3 {
+  display: flex;
+  font-family: "Manrope", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.h3heading {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0%;
+}
+
+.headingp5 {
+  font-size: 3rem;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  margin: 0%;
+}
+
+.h3con {
+  font-size: 1rem;
+  text-align: center;
+  width: 70%;
+}
+
+.techstats {
+  display: flex;
+  //   background-color: red;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.techstatsitem {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+  font-family: "Manrope", sans-serif;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.techstatsitemimg {
+  width: 50px;
+  height: 50px;
+}
+
+.techstatsitem svg {
+  stroke: #40286B;
+  stroke-width: 2px;
+}
+
+.techstatsitemselected svg {
+  stroke: gray;
+  stroke-width: 2px;
+}
+
+.techstatsitemtitle {
+  margin: 0%;
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  margin-top: 0.51rem;
+}
+
+.techstatsitemtitleselected {
+  margin-top: 0.51rem;
+  margin: 0%;
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  color: #40286B;
+}
+
+.lineplain {
+  width: 100%;
+  background-color: #e7edf6ac;
+  position: absolute;
+  bottom: 1px;
+}
+
+.lineselected {
+  width: 100%;
+  height: 2px;
+  background-color: #40286B;
+  z-index: 99;
+}
+
+.product5 {
+  display: flex;
+  font-family: "Manrope", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.product5wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product5img {
+  width: 261.59px;
+  height: 196.19px;
+}
+
+.product5item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.h5itemtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  /* "500" corresponds to the "Medium" font weight */
+  margin-bottom: 1%;
+  font-size: 1rem;
+  text-align: center;
+  width: 70%;
+}
+
+.h5itemcontent {
+  font-family: "Inter", sans-serif;
+  margin: 0%;
+  font-size: 1rem;
+  width: 40%;
+  text-align: justify;
+}
+
+.prodbuttonx {
+  background-color: #40286B;
+  color: white;
+  font-weight: 500;
+  border: 0px solid;
+  padding: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 4%;
+}
+
+.product3rightimg {
+  width: 50%;
+  align-self: center;
+}
+
+.product3right {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.product3 {
+  display: flex;
+  margin: 0%;
+  flex-direction: row;
+}
+
+ul,
+ol {
+  margin: 0%;
+  padding: 0%;
+  font-weight: 900;
+  /* "500" corresponds to the "Medium" font weight */
+  padding-top: 2%;
+}
+
+.product4 {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-self: center; */
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+}
+
+.prod4item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1%;
+  width: 30%;
+}
+
+.p4heading {
+  margin: 0%;
+}
+
+.p4content {
+  margin: 0%;
+}

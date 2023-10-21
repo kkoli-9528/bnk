@@ -1,0 +1,217 @@
+// div {
+//   background-color: red;
+// }
+.herobanner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Manrope", sans-serif;
+}
+
+.herobannerimg {
+  height: 40vh;
+}
+
+.home1 {
+  display: flex;
+  height: 100vh;
+}
+
+.home2 {
+  display: flex;
+  height: 100vh;
+  flex-direction: row-reverse;
+}
+
+.home1right {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.home1left {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.home1rightimg {
+  height: 80%;
+}
+
+.contentwraphomeleft {
+  padding: 10%;
+}
+
+.headingpage2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  /* "500" corresponds to the "Medium" font weight */
+  margin: 0%;
+  margin-bottom: 1%;
+  font-size: 2rem;
+}
+
+.contentpage2 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  /* "500" corresponds to the "Medium" font weight */
+  line-height: 1.3;
+  color: #242323;
+}
+
+.contentwraphomeleft {
+  padding: 15%;
+}
+
+//home 3
+.home3 {
+  display: flex;
+  font-family: "Manrope", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.h3heading {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0%;
+}
+
+.headingp5 {
+  font-size: 3rem;
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  margin: 0%;
+  margin-top: 15% !important;
+}
+
+.h3con {
+  font-size: 1rem;
+  text-align: center;
+  width: 70%;
+}
+
+.techstats {
+  display: flex;
+  //   background-color: red;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.techstatsitem {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+  font-family: "Manrope", sans-serif;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.techstatsitemimg {
+  width: 50px;
+  height: 50px;
+}
+
+.techstatsitem svg {
+  stroke: #40286B;
+  stroke-width: 2px;
+}
+
+.techstatsitemselected svg {
+  stroke: gray;
+  stroke-width: 2px;
+}
+
+.techstatsitemtitle {
+  margin: 0%;
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  margin-top: 0.51rem;
+}
+
+.techstatsitemtitleselected {
+  margin-top: 0.51rem;
+  margin: 0%;
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  color: #40286B;
+}
+
+.lineplain {
+  width: 100%;
+  background-color: #e7edf6ac;
+  position: absolute;
+  bottom: 1px;
+}
+
+.lineselected {
+  width: 100%;
+  height: 2px;
+  background-color: #40286B;
+  z-index: 99;
+}
+
+.home5 {
+  display: flex;
+  font-family: "Manrope", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.home5wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home5img {
+  width: 261.59px;
+  height: 196.19px;
+}
+
+.home5item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.h5itemtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  /* "500" corresponds to the "Medium" font weight */
+  margin-bottom: 1%;
+  font-size: 1rem;
+  text-align: center;
+  width: 70%;
+}
+
+.h5itemcontent {
+  font-family: "Inter", sans-serif;
+  margin: 0%;
+  font-size: 1rem;
+  width: 40%;
+  text-align: justify;
+}

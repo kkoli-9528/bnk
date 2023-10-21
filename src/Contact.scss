@@ -1,0 +1,70 @@
+/* Contact Container */
+.contact {
+    background-color: #f7f7f7;
+    padding: 50px;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    /* Form Fields */
+    .form-group {
+        margin-bottom: 20px;
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        textarea {
+            height: 150px;
+        }
+    }
+
+    /* Submit Button */
+    .submit-btn {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+}
+
+/* Thank You Message */
+.thank-you {
+    text-align: center;
+    margin-top: 20px;
+
+    p {
+        font-size: 18px;
+    }
+}

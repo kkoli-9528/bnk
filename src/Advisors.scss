@@ -1,0 +1,81 @@
+// div {
+//   background-color: red;
+// }
+.herobanner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Manrope", sans-serif;
+}
+.herobannerimg {
+  height: 40vh;
+}
+
+.Advisors1 {
+  display: flex;
+  background-color: rgba(88, 89, 91, 0.1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  width: 100%;
+}
+
+.Advisors {
+  display: flex;
+  flex-direction: column;
+  font-family: "Manrope", sans-serif;
+  height: 100vh;
+  align-items: center;
+}
+.Advisors1right {
+  display: flex;
+}
+.Advisors1rightimg {
+  width: 100%;
+}
+.Advisors1left {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.374);
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+.advthumbnail {
+  width: 81px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.headingAdvisors {
+  font-family: "Manrope", sans-serif;
+  font-weight: 300; /* "500" corresponds to the "Medium" font weight */
+  margin: 0%;
+  line-height: 1;
+  margin-bottom: 1%;
+  font-size: 4rem;
+  color: white;
+  text-align: start;
+  white-space: normal;
+  word-wrap: break-word;
+  width: 50%;
+}
+.contentAdvisors {
+  font-family: "Manrope", sans-serif;
+  line-height: 1.8;
+  font-size: 1.2rem;
+
+  color: white;
+}
+.advtextwrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-self: center;
+  margin-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
